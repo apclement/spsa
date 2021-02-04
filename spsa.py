@@ -343,9 +343,9 @@ class SPSA_minimization:
 
         p = utils.hadamard_product(previous_g, gradient)
 
-        print("gradient = " + utils.pretty(gradient))
-        print("old_g    = " + utils.pretty(previous_g))
-        print("p        = " + utils.pretty(p))
+        #print("gradient = " + utils.pretty(gradient))
+        #print("old_g    = " + utils.pretty(previous_g))
+        #print("p        = " + utils.pretty(p))
 
         g = {}
         eta = {}
