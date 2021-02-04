@@ -361,9 +361,9 @@ class SPSA_minimization:
 
             g[name] = gradient[name]
 
-        print("g        = " + utils.pretty(g))
-        print("eta      = " + utils.pretty(eta))
-        print("delta    = " + utils.pretty(delta))
+        #print("g        = " + utils.pretty(g))
+        #print("eta      = " + utils.pretty(eta))
+        #print("delta    = " + utils.pretty(delta))
 
         # store the current g and delta for the next call of the RPROP algorithm
         self.rprop_previous_g     = g
