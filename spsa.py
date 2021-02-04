@@ -127,8 +127,7 @@ class SPSA_minimization:
                 (avg_goal , avg_theta) = self.average_best_evals(30)
                 print("mean goal (best)  = " + str(avg_goal))
                 print("mean theta (best) = " + utils.pretty(avg_theta))
-
-            print("-----------------------------------------------------------------")
+                print("-----------------------------------------------------------------")
 
             if k >= self.max_iter:
                 break
