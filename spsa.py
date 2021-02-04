@@ -372,8 +372,8 @@ class SPSA_minimization:
         # calculate the update for the current RPROP
         s = utils.hadamard_product(delta, utils.sign(g))
 
-        print("sign(g)  = " + utils.pretty(utils.sign(g)))
-        print("s        = " + utils.pretty(s))
+        #print("sign(g)  = " + utils.pretty(utils.sign(g)))
+        #print("s        = " + utils.pretty(s))
 
         return s
 
