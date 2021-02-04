@@ -118,7 +118,7 @@ class SPSA_minimization:
             (avg_goal , avg_theta) = self.average_best_evals(30)
             theta = utils.linear_combinaison(0.98, theta, 0.02, avg_theta)
 
-            if (k % 100 == 0) or (k <= 1000) :
+            if (k % 10 == 0):
                 (avg_goal , avg_theta) = self.average_evaluations(30)
                 print("iter = " + str(k))
                 print("mean goal (all)   = " + str(avg_goal))
